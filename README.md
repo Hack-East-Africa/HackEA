@@ -1,10 +1,15 @@
 Date: Late August 2025 
+
 Duration: 3 days
+
 Location: Kenya  - Nairobi
+
 Venue: TBD
 
 Theme:  TBD(hardware and software)
+
 Name: TBD
+
 Number of participants: 150 - 200
 
 ### Who we are: 
