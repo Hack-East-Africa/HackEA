@@ -8,7 +8,9 @@
 
 }
 
-
+*{
+  overflow-x: hidden;
+}
 
 body {
   background: var(--background);
