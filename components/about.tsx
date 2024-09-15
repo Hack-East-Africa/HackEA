@@ -2,7 +2,7 @@ import {FC} from 'react'
 import Card from './ui/cards'
 import Link from 'next/link'
 
-const About =()=> {
+const About:FC =()=> {
   return (
     <div>
               <h1 className='underline text-2xl p-2 md:text-3xl text-center'>ABOUT</h1>
