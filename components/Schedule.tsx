@@ -4,13 +4,13 @@ import Card from './ui/cards'
 const Schedule:FC =()=> {
   return (
     <div>
-        <h1 className='underline text-center text-xl'>SCHEDULE</h1>
+        <h1 className='underline text-center text-2xl p-2 md:text-3xl'>SCHEDULE</h1>
 
         <div className='flex flex-col'>
            <Card >
     <h2 className='underline text-lg'>Day One</h2>
 <div>
-    <ul className='h-[140px] columns-2'>
+    <ul className='h-[120px] columns-2'>
         <li>9:00am</li>
         <li>10:00am</li>
         <li>11:00am</li>
@@ -26,7 +26,7 @@ const Schedule:FC =()=> {
           <Card >
     <h2 className='underline text-lg'>Day One</h2>
 <div>
-    <ul className='h-[140px] columns-2'>
+    <ul className='h-[120px] columns-2'>
         <li>9:00am</li>
         <li>10:00am</li>
         <li>11:00am</li>
@@ -42,7 +42,7 @@ const Schedule:FC =()=> {
           <Card >
     <h2 className='underline text-lg'>Day One</h2>
 <div>
-    <ul className='h-[140px] columns-2'>
+    <ul className='h-[120px] columns-2'>
         <li>9:00am</li>
         <li>10:00am</li>
         <li>11:00am</li>

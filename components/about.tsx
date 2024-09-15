@@ -5,25 +5,25 @@ import Link from 'next/link'
 const About =()=> {
   return (
     <div>
-              <h1 className='underline text-center text-xl'>ABOUT</h1>
-              <p className='text-sm '>HackNBO is a 3-day, in-person hackathon for high-schoolers. </p>
+              <h1 className='underline text-2xl p-2 md:text-3xl text-center'>ABOUT</h1>
+              <p className='text-sm text-center md:text-xl'>HackNBO is a 3-day, in-person hackathon for high-schoolers. </p>
               <div  className='flex flex-col'>
-              <div className='grid grid-cols-auto gap-2 mx-auto '>
-              <Card>
+              <div className='grid grid-cols-auto gap-2 mx-auto md:grid-cols-3 '>
+              <Card style="md:w-[240px]">
           
 <div className='m-2'>
 <p>It’s 100% free, really! We want everyone to have the chance to participate so there’s no registration fees and we cover food</p>
 </div>
           </Card>
 
-          <Card>
+          <Card style="md:w-[240px]">
            
 <div className='m-2'>
 <p>HackNBO is beginner friendly, so you’re welcome to join even with no prior coding experience. </p>
 </div>
           </Card>
 
-          <Card>
+          <Card style="md:w-[240px]">
               
 <div className='m-2'>
 <p>Over KES XXX,XXX worth of prizes to be awarded to students like YOU!</p>
