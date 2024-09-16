@@ -10,6 +10,11 @@ interface FaqProp  {
 
 }[];
 
+interface DropdownProps {
+ [key: number]: boolean,
+
+
+}
 const fqa:FaqProp[] = [
   {
     id: 1,
@@ -67,7 +72,7 @@ const fqa:FaqProp[] = [
 
 
 const Faqs:FC<FaqProp> = ()=> {
-  const [isOpen, setOpen] = useState<any>({})
+  const [isOpen, setOpen] = useState<DropdownProps>({})
   const toggleDropdown = (id:number) => {
    setOpen({
     ...isOpen,
