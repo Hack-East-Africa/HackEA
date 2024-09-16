@@ -71,7 +71,7 @@ const fqa:FaqProp[] = [
 ]
 
 
-const Faqs:FC<FaqProp> = ()=> {
+const Faqs:FC = ()=> {
   const [isOpen, setOpen] = useState<DropdownProps>({})
   const toggleDropdown = (id:number) => {
    setOpen({
