@@ -14,7 +14,7 @@ type InfiniteSliderProps = {
   reverse?: boolean;
   className?: string;
 };
-
+ 
 export function InfiniteSlider({
   children,
   gap = 16,

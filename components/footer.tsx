@@ -1,5 +1,7 @@
+import { FC } from "react"
 
-export default function Footer() {
+
+const Footer:FC =()=> {
   return (
     <footer className="flex flex-col">
         <section className="text-center mx-auto">
@@ -17,3 +19,5 @@ export default function Footer() {
     </footer>
   )
 }
+
+export default Footer

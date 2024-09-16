@@ -1,5 +1,6 @@
 import {FC} from 'react'
 import { TextEffect } from './core/TextEffect'
+import Image from 'next/image'
 
 const Hero:FC = ()=> {
   return (
@@ -12,17 +13,16 @@ const Hero:FC = ()=> {
     </TextEffect>
   
    </div>
-   {/* <div className='flex justify-center m-2 p-4 '>
-   <Image className="rounded-xl absolute left-6  md:w-[300px]" src="/image1.jpg" alt="" width={150} height={150} />
-    <Image className="rounded-xl relative z-10 top-[-16px]" src="/image2.jpg" alt="" width={210} height={200} />
-    <Image className="rounded-xl absolute right-4  z-0" src="/image3.jpg" alt="" width={150} height={150} />
+   <div className='flex justify-center m-2 p-4 '>
+   <Image className="rounded-xl absolute left-6 md:hidden" src="/image1.jpg" alt="" width={150} height={150} />
+    <Image className="rounded-xl relative z-10 top-[-16px] md:hidden" src="/image2.jpg" alt="" width={210} height={200} />
+    <Image className="rounded-xl absolute right-4  z-0 md:hidden"  src="/image3.jpg" alt="" width={150} height={150} />
    </div>
-   */}
+  
 </div>
-<div className='flex justify-between m-2 md:justify-around'>
-
+<div className='text-center md:flex md:justify-around'>
 <div>
- <h1 className='text-2xl w-[150px]  md:text-4xl md:w-[240px] md:overflow-hidden '>A hackathon <br />
+ <h1 className='text-2xl md:text-4xl md:w-[240px] md:overflow-hidden '>A hackathon <br />
 <span className='underline'> 
 for
 </span> teens,
