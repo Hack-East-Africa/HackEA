@@ -9,6 +9,11 @@ const dosisExtra = localFont({
   variable: "--font-dosis-extra",
 
 });
+
+const dosisBold = localFont({
+  src: "./fonts/Dosis-Bold.ttf",
+  variable: "--font-dosis-bold",
+})
 // const geistMono = localFont({
 //   src: "./fonts/GeistMonoVF.woff",
 //   variable: "--font-geist-mono",
@@ -28,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dosisExtra.variable} antialiased p-4 m-4 flex flex-col`}
+        className={`${dosisExtra.variable} ${dosisBold.variable} p-4 m-4`}
       >
         <Header/>
         {children}
