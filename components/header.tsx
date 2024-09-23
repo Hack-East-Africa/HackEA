@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
   <header >
-     <nav className="flex flex-col text-center justify-center gap-4 md:flex-row md:justify-between">
+     <nav className="flex flex-row text-center justify-center gap-4 md:justify-between  ">
       
       <Image src='/logo.svg' alt='Logo' width={80} height={80}  priority={true}
 						object-fit="cover"
