@@ -19,53 +19,52 @@ const fqa:FaqProp[] = [
   {
     id: 1,
     question: "Whats a hackathon?",
-    answer: "string",  
+    answer: `A hackathon is an invention marathon where students come together to build, learn and share. The
+					project can be anything as long it solves a problem. Everyone will create their own project in teams
+					of up to 8 and at the end each team presents its project. The best projects will get prizes, and
+					there will be swag and food and drinks for everyone.`,  
    
   },
   {
     id: 2,
     question: "What if I don’t know how to code?",
-     answer: "string",  
+     answer: "Everyone is welcomed since there will be workshops that introduces some to programming basic and much more.",  
    },
    {
     id: 3,
      question: "What should I do if my parents are concerned about this?",
-     answer: "string",  
+     answer: "In the last two weeks before the hackathon we will host virtual meeting to meet with concerned parent but they can always shoot as an email on socials@hackeastafrica.org",  
    },
    {
     id: 4,
      question: "How old do I need to be to participate?",
-     answer: "string",  
+     answer: "You need to be at least 16 for you to be able to travel and have an id on you.",  
    },
    {
     id: 5,
      question: "What are the themes?",
-     answer: "string",  
+     answer: "To Be Communicated",  
    },
    {
     id: 6,
      question: "I have dietary restrictions what should I do?",
-     answer: "string",  
+     answer: "Make sure to say this when registering so that we may know your case.",  
    },
-   {
-    id: 7,
-     question: "What if I don’t know how to code?",
-     answer: "string",  
-   },
+  
    {
     id: 8,
      question: "How big can a team be?",
-     answer: "string",  
+     answer: "To Be Communicated",  
    },
    {
     id: 9,
      question: "What are the prizes?",
-     answer: "string",  
+     answer: "To Be Updated",  
    },
    {
     id: 10,
      question: "I have more questions!",
-     answer: "Any extra questions? No worries! Send them to us here email@example.com",  
+     answer: "Any extra questions? No worries! Send them to us here socials@hackeastafrica.org",  
    },
    
 ]

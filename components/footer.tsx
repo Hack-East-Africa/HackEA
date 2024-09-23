@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { FC } from "react"
 
 
@@ -8,9 +9,9 @@ const Footer:FC =()=> {
  <h1 className="underline text-2xl p-2 md:text-3xl">DONATE</h1>
  <div className="md:text-2xl ">
  <p >Donations and sponsorships help run this event and keep it free and fun for everyone!</p>
- <p>You can donate to us through <span className="underline">here</span> or <span className="underline">check this out</span> for information on sponsorships.</p>
- <p>For transparency, we keep our <span className="underline">budget public</span>  so you can see what your help is letting us do!</p>
- </div>
+ <p>You can donate to us through <span className="underline"><Link href="https://hcb.hackclub.com/donations/start/hack-east-africa">here </Link></span> or <span className="underline">check this out</span> for information on sponsorships.</p>
+ <p>For transparency, we keep our <span className="underline"><Link href="https://docs.google.com/spreadsheets/d/11PltO5oEQreyTJ4xu0ckh80SmpEcfJzJhhHPm9gNQZw/edit?gid=0#gid=0">budget public </Link></span>  so you can see what your help is letting us do!</p>
+ </div> 
 
         </section>
     <section>
