@@ -32,7 +32,7 @@ by teens.</h1>
 <aside>
   <div>
 <h1 className='underline text-xl md:text-2xl'>Dates</h1>
-<p>Feb xx to xx 2025</p>
+<p>Aug xx to xx 2025</p>
   </div>
   <div>
 <h1 className='underline text-xl md:text-2xl'>Location</h1>

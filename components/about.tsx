@@ -6,7 +6,7 @@ const About:FC =()=> {
   return (
     <div>
               <h1 className='underline text-2xl p-2 md:text-3xl text-center'>ABOUT</h1>
-              <p className='text-sm text-center md:text-xl'>HackNBO is a 3-day, in-person hackathon for high-schoolers. </p>
+              <p className='text-sm text-center md:text-xl'>HackEA is a 3-day, in-person hackathon for high-schoolers. </p>
               <div  className='flex flex-col'>
               <div className='grid grid-cols-auto gap-2 mx-auto md:grid-cols-3 '>
               <Card style="md:w-[240px]">
@@ -19,7 +19,7 @@ const About:FC =()=> {
           <Card style="md:w-[240px]">
            
 <div className='m-2'>
-<p>HackNBO is beginner friendly, so you’re welcome to join even with no prior coding experience. </p>
+<p>HackEA is beginner friendly, so you’re welcome to join even with no prior coding experience. </p>
 </div>
           </Card>
 
