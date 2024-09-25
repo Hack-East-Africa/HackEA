@@ -18,15 +18,15 @@ export default function Header() {
 					/>
 
 <div  className="md:hidden">
-     <Image src='/burger.svg' alt='Burger' className={`${!open ? "hidden" :"block" } `} width={20} height={20}  priority={true}
-           object-fit="cover" onClick={()=>{toggle(false)}} />
+     <Image src='/burger.svg' alt='Burger' className={`${open ? "hidden" :"block" } `} width={20} height={20}  priority={true}
+           object-fit="cover" onClick={()=>{toggle(true)}} />
 
      </div>
   
  
      <ul className={`${open ? "hidden": "block"} md:gap-4 w-22 md:flex-row md:flex `}>
-     <Image src='/x.svg' alt='x'  className={` ${open ? "hidden" :"visible" } md:hidden`} width={20} height={20}  priority={true}
-           object-fit="cover"  onClick={()=>{toggle(true)}}/>
+     <Image src='/x.svg' alt='x'  className={` ${!open ? "hidden" :"block" } md:hidden`} width={20} height={20}  priority={true}
+           object-fit="cover"  onClick={()=>{toggle(false)}}/>
 
         <li><a href="">About</a></li>
         <li><a href="">Schedule</a></li>
