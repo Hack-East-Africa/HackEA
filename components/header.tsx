@@ -24,7 +24,7 @@ export default function Header() {
      </div>
   
  
-     <ul className={`${open ? "hidden": "block"} md:gap-4 w-22 md:flex-row md:flex `}>
+     <ul className={`${!open ? "hidden": "block"} md:gap-4 w-22 md:flex-row md:flex `}>
      <Image src='/x.svg' alt='x'  className={` ${!open ? "hidden" :"block" } md:hidden`} width={20} height={20}  priority={true}
            object-fit="cover"  onClick={()=>{toggle(false)}}/>
 
