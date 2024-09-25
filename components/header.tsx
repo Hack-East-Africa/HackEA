@@ -1,15 +1,33 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Header() {
+  const [open, setOpen] = useState<Boolean>(false)
+
+  const toggle = (action: Boolean)=> {
+         setOpen(action)
+  }
   return (
   <header >
-     <nav className="flex flex-row text-center justify-center gap-4 md:justify-between">
+     <nav className="flex flex-row gap-4 justify-between">
       
       <Image src='/logo.svg' alt='Logo' width={80} height={80}  priority={true}
 						object-fit="cover"
 					/>
-      <ul className="flex flex-col gap-2 md:gap-4 w-22 md:flex-row md:text-lg">
+
+<div  className="md:hidden">
+     <Image src='/burger.svg' alt='Burger' className={`${!open ? "hidden" :"block" } `} width={20} height={20}  priority={true}
+           object-fit="cover" onClick={()=>{toggle(false)}} />
+
+     </div>
+  
+ 
+     <ul className={`${open ? "hidden": "block"} md:gap-4 w-22 md:flex-row md:flex `}>
+     <Image src='/x.svg' alt='x'  className={` ${open ? "hidden" :"visible" } md:hidden`} width={20} height={20}  priority={true}
+           object-fit="cover"  onClick={()=>{toggle(true)}}/>
+
         <li><a href="">About</a></li>
         <li><a href="">Schedule</a></li>
         <li><Link href="https://hcb.hackclub.com/donations/start/hack-east-africa">Donate</Link></li>
