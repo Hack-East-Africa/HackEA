@@ -28,8 +28,8 @@ export default function Header() {
      <Image src='/x.svg' alt='x'  className={` ${!open ? "hidden" :"block" } md:hidden`} width={20} height={20}  priority={true}
            object-fit="cover"  onClick={()=>{toggle(false)}}/>
 
-        <li><a href="">About</a></li>
-        <li><a href="">Schedule</a></li>
+        <li><Link href="#about">About</Link></li>
+        <li><Link href="#schedule">Schedule</Link></li>
         <li><Link href="https://hcb.hackclub.com/donations/start/hack-east-africa">Donate</Link></li>
       </ul>
     </nav>

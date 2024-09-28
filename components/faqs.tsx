@@ -21,7 +21,7 @@ const fqa:FaqProp[] = [
     question: "Whats a hackathon?",
     answer: `A hackathon is an invention marathon where students come together to build, learn and share. The
 					project can be anything as long it solves a problem. Everyone will create their own project in teams
-					of up to 8 and at the end each team presents its project. The best projects will get prizes, and
+					of up to x and at the end each team presents its project. The best projects will get prizes, and
 					there will be swag and food and drinks for everyone.`,  
    
   },
@@ -33,7 +33,7 @@ const fqa:FaqProp[] = [
    {
     id: 3,
      question: "What should I do if my parents are concerned about this?",
-     answer: "In the last two weeks before the hackathon we will host virtual meeting to meet with concerned parent but they can always shoot as an email on socials@hackeastafrica.org",  
+     answer: "In the last two weeks before the hackathon we will host virtual meeting to meet with concerned parent but they can always shoot as an email at socials@hackeastafrica.org",  
    },
    {
     id: 4,
@@ -43,7 +43,7 @@ const fqa:FaqProp[] = [
    {
     id: 5,
      question: "What are the themes?",
-     answer: "To Be Communicated",  
+     answer: "TDB",  
    },
    {
     id: 6,
@@ -54,12 +54,12 @@ const fqa:FaqProp[] = [
    {
     id: 8,
      question: "How big can a team be?",
-     answer: "To Be Communicated",  
+     answer: "TBD",  
    },
    {
     id: 9,
      question: "What are the prizes?",
-     answer: "To Be Updated",  
+     answer: "TBD",  
    },
    {
     id: 10,
