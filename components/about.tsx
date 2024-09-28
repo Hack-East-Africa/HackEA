@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const About:FC =()=> {
   return (
-    <div>
+    <div id="about">
               <h1 className='underline text-2xl p-2 md:text-3xl text-center'>ABOUT</h1>
               <p className='text-sm text-center md:text-xl'>HackEA is a 3-day, in-person hackathon for high-schoolers. </p>
               <div  className='flex flex-col'>
@@ -32,7 +32,7 @@ const About:FC =()=> {
               </div>
 
               <button className='bg-[#464D5C] text-[#F7DDA4] rounded-lg w-[200px] h-[40px] mx-auto '>
-            <Link href={''} >REGISTER NOW!</Link>
+            <Link href={'https://forms.fillout.com/t/kD192Ntng1us' } target="_blank" >REGISTER NOW!</Link>
             </button>
               </div>
             
