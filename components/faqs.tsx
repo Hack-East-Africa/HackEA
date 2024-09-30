@@ -87,12 +87,12 @@ const Faqs:FC = ()=> {
 
   return (
     <div>
-        <h1 className="underline text-xl p-2  md:text-4xl">FREQUENTLY ASKED QUESTIONS (FAQs)</h1>
+        <h1 className="underline text-xl p-2  md:text-4xl text-center">FREQUENTLY ASKED QUESTIONS (FAQs)</h1>
         <div>
             {
               fqa.map((question)=> (
                 <div className="md:text-xl" key={question.id}>
-                <div className="flex" >
+                <div className="flex " >
 {
   !isOpen[question.id] ? (
     <svg className="m-2" width="10" height="10" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">

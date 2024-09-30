@@ -4,23 +4,36 @@ import Image from 'next/image'
 
 const Hero:FC = ()=> {
   return (
-    <div>
+    <section className='text-center '>
 
 <div >
-   <div className='p-2 m-2 text-center'>
+   <div className='p-2 m-2 '>
     <TextEffect per='word' as='h1' preset='fade' className='md:text-2xl'> 
     Welcome to the first ever East Africa Hackathon
     </TextEffect>
   
    </div>
-   <div className='flex justify-center m-2 p-4 '>
-   <Image className="rounded-xl absolute left-6 md:hidden" src="/image1.jpg" alt="" width={150} height={150} />
-    <Image className="rounded-xl relative z-10 top-[-16px] md:hidden" src="/image2.jpg" alt="" width={210} height={200} />
-    <Image className="rounded-xl absolute right-4  z-0 md:hidden"  src="/image3.jpg" alt="" width={150} height={150} />
+   <div className='flex justify-center m-2 p-4 md:hidden'>
+   <Image className="rounded-xl absolute left-6" src="/image1.jpg" alt="" width={150} height={150} />
+    <Image className="rounded-xl relative z-10 top-[-16px] " src="/image2.jpg" alt="" width={210} height={200} />
+    <Image className="rounded-xl absolute right-4  z-0 "  src="/image3.jpg" alt="" width={150} height={150} />
    </div>
+
+<section className='hidden md:grid grid-cols-3  gap-2 md:ml-[180px] m-2'>
+   <Image className="h-auto max-w-full rounded-lg  " src="/image1.jpg" alt="" width={750} height={750} />
+    <Image className="h-auto max-w-full rounded-lg " src="/image2.jpg" alt="" width={410} height={400} />
+    <div className='space-y-2 '>
+    <Image className="h-auto max-w-full rounded-lg "  src="/image3.jpg" alt="" width={150} height={150} />
+    <Image className="h-auto max-w-full rounded-lg "  src="/image5.jpg" alt="" width={150} height={150} />
+    </div>
+    
+   
+   </section>
+
+ 
   
 </div>
-<div className='text-center md:flex md:justify-around'>
+<div className=' md:flex md:justify-around'>
 <div>
  <h1 className='text-2xl md:text-4xl md:w-[240px] md:overflow-hidden '>A hackathon <br />
 <span className='underline'> 
@@ -40,7 +53,7 @@ by teens.</h1>
   </div>
 </aside>
 </div>
-    </div>
+    </section>
   
   )
 }
