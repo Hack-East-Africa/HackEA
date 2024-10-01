@@ -20,31 +20,17 @@ const Sponsors:FC =()=> {
 
         
         <section className='m-3 mx-auto grid grid-cols-4 gap-2'>
-        <Image src="/largem.png" alt="logo" width={80} height={20}/>
-        <Image src="/largem.png" alt="logo" width={80} height={20}/>
-        <Image src="/largem.png" alt="logo" width={80} height={20}/>
-        <Image src="/largem.png" alt="logo" width={80} height={20}/>
+  
         </section>
 
         <section  className=' m-2 mx-auto grid grid-cols-7 gap-4'>
-        <Image src="/medium.png" alt="logo" width={80} height={20}/>
-        <Image src="/medium.png" alt="logo" width={80} height={20}/>
-        <Image src="/medium.png" alt="logo" width={80} height={20}/>
-        <Image src="/medium.png" alt="logo" width={80} height={20}/>
-        <Image src="/medium.png" alt="logo" width={80} height={20}/>
-        <Image src="/medium.png" alt="logo" width={80} height={20}/>
-        <Image src="/medium.png" alt="logo" width={80} height={20}/>
+   
        
         </section>
         <section  className='mx-auto grid grid-cols-8 gap-4'>
         <Image src="/bronze/wolfram.png" alt="logo" width={80} height={20}/>
         <Image src="/bronze/inspector.png" alt="logo" width={80} height={20}/>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
+   
        
             </section>
       </main>
