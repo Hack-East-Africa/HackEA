@@ -7,15 +7,7 @@ const Sponsors:FC =()=> {
       <h1 className='underline text-2xl p-2 md:text-3xl text-center'>SPONSORS AND PARTNERS</h1>
       <main className='flex flex-col mx-auto'>
         <section className='mx-auto grid grid-cols-3 gap-3'>
-      <div>
-        <Image src="/large.png" alt="logo" width={80} height={20}/>
-      </div>
-      <div>
-        <Image src="/large.png" alt="logo" width={80} height={20}/>
-      </div>
-      <div>
-        <Image src="/large.png" alt="logo" width={80} height={20}/>
-      </div>
+     
         </section>
 
         
