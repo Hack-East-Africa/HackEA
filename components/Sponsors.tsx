@@ -37,8 +37,8 @@ const Sponsors:FC =()=> {
        
         </section>
         <section  className='mx-auto grid grid-cols-8 gap-4'>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
-        <Image src="/small.png" alt="logo" width={80} height={20}/>
+        <Image src="/bronze/wolfram.png" alt="logo" width={80} height={20}/>
+        <Image src="/bronze/inspector.png" alt="logo" width={80} height={20}/>
         <Image src="/small.png" alt="logo" width={80} height={20}/>
         <Image src="/small.png" alt="logo" width={80} height={20}/>
         <Image src="/small.png" alt="logo" width={80} height={20}/>
