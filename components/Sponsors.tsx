@@ -23,7 +23,7 @@ const Sponsors:FC =()=> {
         <Image src="/bronze/wolfram.png" alt="logo" width={80} height={20}/>
         <Image src="/bronze/inspector.png" alt="logo" width={80} height={20}/>
    
-       
+        <Image src="/bronze/xyz.svg" alt="logo" width={80} height={20}/>
             </section>
       </main>
     </div>
