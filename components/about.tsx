@@ -32,13 +32,9 @@ const About:FC =()=> {
               </div>
 
               <button className='bg-[#464D5C] text-[#F7DDA4] rounded-lg w-[200px] h-[40px] mx-auto '>
-            <Link href={'https://forms.fillout.com/t/kD192Ntng1us' } target="_blank" >REGISTER NOW!</Link>
+            <Link href={'https://forms.fillout.com/t/t4vUGn6tcaus' } target="_blank" >REGISTER NOW!</Link>
             </button>
               </div>
-            
-
-         
-         
                </div>
   )
 }
